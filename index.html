@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Techo Cancha 3 · Angol Tennis Club</title>
+<meta name="description" content="Propuesta de cubierta metálica para la cancha 3 del Angol Tennis Club, con espacios para auspiciador.">
+<meta name="robots" content="noindex">
+<style>
+  /* Página de propuesta: portada con el render aéreo, ficha técnica y galería en grilla. */
+  :root {
+    --verde: #1d5e3c; --verde-osc: #143f29; --arcilla: #b5543a;
+    --fondo: #f3f4f1; --texto: #1a2520; --suave: #56625b; --tarjeta: #ffffff;
+    --display: "Liberation Sans", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.55 var(--display); }
+  .envoltura { max-width: 1120px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-left, 0px)) 0 max(16px, env(safe-area-inset-right, 0px)); }
+  header { background: var(--verde-osc); color: #fff; }
+  header .envoltura { padding-block: 28px 32px; display: grid; gap: 20px; }
+  .eyebrow { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #9fd1b4; margin: 0; }
+  h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.1; margin: 4px 0 8px; text-wrap: balance; }
+  .bajada { max-width: 62ch; margin: 0; color: #dbe9e1; }
+  .portada { width: 100%; border-radius: 8px; display: block; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 12px; }
+  .boton { display: inline-block; background: var(--arcilla); color: #fff; text-decoration: none; font-weight: 700; padding: 12px 18px; border-radius: 6px; }
+  .boton:focus-visible, figure a:focus-visible { outline: 3px solid #e0a43a; outline-offset: 2px; }
+  main .envoltura { padding-block: 32px 48px; display: grid; gap: 40px; }
+  h2 { font-size: 22px; margin: 0 0 14px; }
+  .ficha { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 0; }
+  .ficha div { background: var(--tarjeta); border-top: 4px solid var(--verde); padding: 12px 14px; }
+  .ficha dt { font-size: 13px; color: var(--suave); }
+  .ficha dd { margin: 2px 0 0; font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+  figure { margin: 0; background: var(--tarjeta); }
+  figure img { width: 100%; display: block; }
+  figcaption { padding: 10px 14px 14px; font-size: 15px; }
+  figcaption b { display: block; }
+  .nota { color: var(--suave); font-size: 14px; max-width: 70ch; }
+  footer { border-top: 1px solid #d5dad6; }
+  footer .envoltura { padding-block: 20px; font-size: 13px; color: var(--suave); }
+</style>
+</head>
+<body>
+<header>
+  <div class="envoltura">
+    <div>
+      <p class="eyebrow">Angol Tennis Club · Propuesta de auspicio</p>
+      <h1>Cubierta para la cancha 3</h1>
+      <p class="bajada">Estructura metálica de 40 × 20 m sobre la cancha de arcilla junto a los cipreses, con espacios de marca en la cubierta, los costados y los frentes.</p>
+    </div>
+    <img class="portada" src="img/aerea.jpg" alt="Vista aérea de la cubierta metálica sobre la cancha 3, con el espacio del auspiciador pintado en el techo">
+    <div class="acciones"><a class="boton" href="visor.html">Abrir el modelo 3D</a></div>
+  </div>
+</header>
+<main>
+  <div class="envoltura">
+    <section>
+      <h2>La estructura</h2>
+      <dl class="ficha">
+        <div><dt>Superficie cubierta</dt><dd>800 m²</dd></div>
+        <div><dt>Planta</dt><dd>40 × 20 m</dd></div>
+        <div><dt>Altura en aleros</dt><dd>7,5 m</dd></div>
+        <div><dt>Altura en cumbrera</dt><dd>11 m</dd></div>
+        <div><dt>Pilares reticulados</dt><dd>16</dd></div>
+      </dl>
+    </section>
+    <section>
+      <h2>Cómo se vería</h2>
+      <div class="galeria">
+        <figure><a href="img/fotomontaje_foto30_3.jpg"><img src="img/fotomontaje_foto30_3.jpg" alt="Fotomontaje de la cubierta sobre una foto real de la cancha 3" loading="lazy"></a><figcaption><b>Fotomontaje en la cancha real</b>La cubierta sobre una foto tomada a nivel de cancha.</figcaption></figure>
+        <figure><a href="img/fotomontaje_foto3.jpg"><img src="img/fotomontaje_foto3.jpg" alt="Fotomontaje de la cubierta visto desde el talud" loading="lazy"></a><figcaption><b>Fotomontaje desde el talud</b>Vista desde la baranda sobre la cancha.</figcaption></figure>
+        <figure><a href="img/lateral_cancha2.jpg"><img src="img/lateral_cancha2.jpg" alt="Costado de la cubierta con el panel triangular y el espacio del auspiciador" loading="lazy"></a><figcaption><b>Desde la cancha 2</b>El panel lateral con la marca, visible desde las canchas vecinas.</figcaption></figure>
+        <figure><a href="img/desde_calle.jpg"><img src="img/desde_calle.jpg" alt="La cubierta vista desde la calle Caupolicán" loading="lazy"></a><figcaption><b>Desde calle Caupolicán</b>La franja frontal queda a la altura de la vista desde la calle.</figcaption></figure>
+        <figure><a href="img/nivel_cancha.jpg"><img src="img/nivel_cancha.jpg" alt="Interior de la cubierta visto desde la cancha" loading="lazy"></a><figcaption><b>Bajo la cubierta</b>La cancha protegida de la lluvia, con iluminación colgada de la estructura.</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Espacios para el auspiciador</h2>
+      <p class="nota">La marca puede ir en tres lugares: pintada en las dos aguas de la cubierta (14 × 8 m cada una, visible desde arriba y desde la calle), en los paneles de los dos costados y en las franjas de los frentes norte y sur. Las imágenes muestran un espacio genérico; se generan de nuevo con el logo de cada empresa.</p>
+    </section>
+  </div>
+</main>
+<footer><div class="envoltura">Imágenes referenciales generadas a partir de los planos del proyecto. Materiales, colores y paneles publicitarios son una propuesta.</div></footer>
+</body>
+</html>
